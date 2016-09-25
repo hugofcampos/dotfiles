@@ -12,6 +12,7 @@ installcask firefox
 
 # Essentials
 installcask iterm2
+installcask gpgtools
 
 # Others
 installcask google-drive
