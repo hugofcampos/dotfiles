@@ -24,7 +24,11 @@ filetype indent on
 "color options
 set background=dark
 let g:gruvbox_contrast_dark="hard"
-color gruvbox
+color dracula
+
+" vim icons file type
+set encoding=utf8
+let g:airline_powerline_fonts = 1
 
 " use unix as standard file type
 set fileformats=unix,dos,mac
@@ -74,6 +78,10 @@ set synmaxcol=500
 " keep selection to indent/outdent
 vnoremap < <gv
 vnoremap > >gv
+
+" after a :vim[grep] map the :cn and :cp
+nmap <silent> - :cprevious<cr>
+nmap <silent> = :cnext<cr>
 
 " join lines with cursor staying in place
 nnoremap J mzJ`z
@@ -181,7 +189,7 @@ set nobackup noswapfile
 set shortmess=atI
 
 " stop annoying noise
-set visualbell
+"set visualbell
 
 " restore messed up vim and splits
 map <F5> :redraw!<cr><c-w>=
@@ -197,8 +205,8 @@ set nofoldenable
 
 " SIDEBAR
 " =============================================
-map <Leader>s :NERDTreeToggle<CR>
-let NERDTreeIgnore = ['\.pyc$']
+map <leader>s :NERDTreeToggle<cr>
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 
 
 " NAVIGATION
@@ -228,5 +236,5 @@ au BufNewFile,BufRead *.ejs set filetype=html
 
 " CONTROL P
 " ==============================================
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|(node_modules|ENV|bower_components)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)|(node_modules|ENV|bower_components|__pycache__)$'
 

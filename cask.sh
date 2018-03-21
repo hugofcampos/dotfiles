@@ -20,16 +20,9 @@ installcask transmission
 installcask skype
 installcask evernote
 installcask transmit
-installcask chromecast
 installcask vlc
 installcask spotify
 installcask telegram
-installcask evernote
-installcask transmit
-installcask chromecast
-
-# Arduino
-installcask arduino
 
 # Database
 installcask mongohub
@@ -40,7 +33,6 @@ installcask dash
 installcask dockertoolbox
 installcask sublime-text-3
 installcask postman
-installcask java
-installcask android-studio
+installcask gpgtools
 installcask anybar
 installcask docker

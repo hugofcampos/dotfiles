@@ -7,7 +7,7 @@
 
 ## Typeface
 
-I use the open typeface  [Hack](http://sourcefoundry.org/hack/)
+I use the open typeface  [FiraCode](https://github.com/tonsky/FiraCode)
 
 
 ## OSX defaults
@@ -17,11 +17,6 @@ To configurate a new Mac with my default settings
 ```
 $ source osx.sh
 ```
-
-
-## Git
-
-Remember to update your user **name** and **email** in the file `.gitconfig`.
 
 
 ## Vim, Bash
