@@ -37,6 +37,7 @@ brew install ngrep
 brew install youtube-dl
 brew install thefuck
 brew install tldr
+brew install s3cmd
 
 # Clean it up.
 brew cleanup
