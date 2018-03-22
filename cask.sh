@@ -7,11 +7,11 @@ function installcask() {
 
 # Browsers
 installcask google-chrome
-installcask torbrowser
 installcask firefox
 
 # Essentials
 installcask iterm2
+installcask sublime-text
 installcask gpgtools
 
 # Others
@@ -20,27 +20,19 @@ installcask transmission
 installcask skype
 installcask evernote
 installcask transmit
-installcask chromecast
 installcask vlc
 installcask spotify
 installcask telegram
-installcask evernote
-installcask transmit
-installcask chromecast
-
-# Arduino
-installcask arduino
+installcask whatsapp
 
 # Database
-installcask mongohub
+installcask mongodb-compass
 installcask sequel-pro
+installcask postico
 
 # Code
-installcask dash
 installcask dockertoolbox
 installcask sublime-text-3
 installcask postman
-installcask java
-installcask android-studio
-installcask anybar
+installcask gpgtools
 installcask docker
