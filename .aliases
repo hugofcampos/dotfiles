@@ -134,3 +134,8 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
 #sublime text 3
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# Docker
+alias d="docker";
+alias dc="docker-compose";
+function dexi() { docker exec -it "$1" bash; }

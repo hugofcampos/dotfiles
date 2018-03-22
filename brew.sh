@@ -24,29 +24,20 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install python
+brew install php
 
 # Install everything else.
 brew install git
 brew install go
 brew install nmap
 brew install ack
-brew install imagemagick
 brew install tree
 brew install nvm
-brew install ffmpeg
-brew install w3m
 brew install homebrew/apache/ab
-brew install jpeg
-brew install x264
 brew install ngrep
-brew install cloc
 brew install youtube-dl
 brew install thefuck
 brew install tldr
-
-# lsusb.
-brew tap jlhonora/lsusb
-brew install lsusb
 
 # Brew cask - to install native apps.
 brew install phinze/cask/brew-cask
