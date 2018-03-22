@@ -31,7 +31,6 @@ installcask sequel-pro
 installcask postico
 
 # Code
-installcask dockertoolbox
 installcask sublime-text-3
 installcask postman
 installcask gpgtools
