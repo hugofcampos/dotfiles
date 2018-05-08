@@ -35,3 +35,7 @@ installcask sublime-text-3
 installcask postman
 installcask gpgtools
 installcask docker
+
+# Fonts
+brew tap caskroom/fonts
+installcask hack
