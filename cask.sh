@@ -13,27 +13,27 @@ installcask firefox
 installcask iterm2
 installcask sublime-text
 installcask gpgtools
+installcask 1password
 
 # Others
 installcask google-drive
 installcask transmission
 installcask skype
-installcask evernote
 installcask transmit
 installcask vlc
 installcask spotify
 installcask telegram
 installcask whatsapp
+installcask discord
 
 # Database
 installcask mongodb-compass
-installcask sequel-pro
+installcask tableplus
 installcask postico
 
 # Code
 installcask sublime-text-3
 installcask postman
-installcask gpgtools
 installcask docker
 
 # Fonts
