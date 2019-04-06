@@ -38,4 +38,4 @@ installcask docker
 
 # Fonts
 brew tap caskroom/fonts
-installcask hack
+installcask font-hack
