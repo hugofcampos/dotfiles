@@ -14,11 +14,11 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 brew install bash
-brew install wget --with-iri
+brew install wget
 brew install bash-completion
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install vim
 brew install grep
 brew install openssh
 brew install screen
