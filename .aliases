@@ -98,7 +98,7 @@ alias gchb="git checkout -b"
 alias gchm="git checkout master"
 
 # Github
-alias gh="open https://github.com/vitorleal"
+alias gh="open https://github.com/hugofcampos"
 
 # github repo
 # Open the git repository in the browser if git remote origin is defined
